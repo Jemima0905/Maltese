@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+  <title> HTML Email</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class = "topnav">
+  <a href="#">Home</a>
+</div>
+<main>
+<div class="header">
+<h1> Welcome to Pure Breed Maltese by Harmony</h1>
+
+<img src="images\purple.jpg" alt="maltese puppy" class="center">
+
+<div class="row">
+  <div class="column">
+    <h2>About Us</h2>
+    <p>As a Breeder, We want to have the puppy's best interest. we take care, love these puppies 200% and we make sure all of their needs are met.
+We make sure all our puppies are healthy and happy through vet checks and healthy food diet. 
+We are hoping that their forever homes can give them the love, attention and care they deserve.</p>
+  </div>
+  
+  <div class="column">
+    <h2>Why Maltese</h2>
+    <p> Maltese are loving and a true companion for the right owner/s. 
+	Maltese are light shedders and are acceptable pets for most allergy sufferers.
+	The Maltese is a suitable indoor dog that thrives even in apartments and small confines.
+	They are loving and protective of their owners. They are very smart and trainable. 
+	In general, the Maltese is a healthy breed but be careful with their teeth they need to get brushed and taken care for.
+	</p>
+	</div>
+  <div class="column">
+    <h2>Availability and Waiting List</h2>
+    <p> Our puppies are <b>first come first</b> as serve per the waiting list with  a $500 downpayment to reserve the puppy.</p>
+	<p>Females are rare these days so it is better to reserve the soonest and be on our waiting list. waiting time depends on when the litter can become available.</p>
+	<p>They will be released after 12 weeks with vet checked and an AKC Registration.
+	They are also Grass Pad/Pee Pad Trained but owners still need to make the training consistent until it's an automatic behavior for the puppy</p>
+  </div>
+
+<div class="column">
+<img src="images\maltese2.jpg" alt="maltese puppy">
+</div>
+<div class="column">
+<img src="images\maltese3.jpg" alt="maltese puppy">
+</div>
+<div class="column">
+<img src="images\maltese4.jpg" alt="maltese puppy">
+</div>
+
+</div>
+
+<button class="open-button" onclick="openForm()">CONTACT US</button>
+
+<div class="form-popup" id="myForm">
+ <form action="" class="form-container">
+    <h1>Contact Us</h1>
+
+    <label for="fname"><b> Full Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="email"><b>Email Address</b></label>
+    <input type="email" placeholder="Enter email" name="email" required>
+	
+	 <label for="mobile"><b>Phone Number</b></label>
+    <input type="mobile" placeholder="Enter mobile" name="mobile" required>
+
+    <button type="submit" class="btn">submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<div class="footer"><b><i><p> copyright &copy; 2022 Jemima Abellera </p></b></i>
+<a href="mailto:harmonyandpeace2022@gmail.com"><span> &#9993;</span></a>
+<a href="tel:+6025585780"><span>&#9742;</span></a>
+
+</div>
+
+</main>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+
+</html>
